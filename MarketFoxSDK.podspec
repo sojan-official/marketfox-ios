@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'MarketFoxSDK'
+  s.name             = 'MarketfoxSDK'
   s.version          = '0.1.0'
   s.summary          = 'Marketing Automation Simplified'
 
@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/sojan-official/marketfox-ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target   = '8.0'
-  s.source_files            = 'MarketFoxSDK/*.{h,m}'
-  s.ios.vendored_library    = 'MarketFoxSDK/libMarketFox.a'
+  s.source_files            = 'MarketfoxSDK/*.{h,m}'
+  s.ios.vendored_library    = 'MarketfoxSDK/libMarketfox.a'
   s.frameworks = 'UIKit', 'CoreLocation', 'UserNotifications', 'CoreTelephony'
 
 end
