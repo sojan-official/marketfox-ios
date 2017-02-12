@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'MarketfoxSDK'
+  s.name             = 'MarketfoxiOS'
   s.version          = '0.1.0'
   s.summary          = 'Marketing Automation Simplified'
 

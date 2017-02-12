@@ -1,10 +1,6 @@
 //
-//  MarketFox.h
-//  MarketFox
-//
-//  Created by user on 21/01/17.
-//  Copyright © 2017 user. All rights reserved.
-//
+//  Marketfox.h
+//  Marketfox
 
 #import <Foundation/Foundation.h>
 
@@ -13,7 +9,7 @@ typedef NS_ENUM(NSInteger,MFNotificationStatus){
     MF_NOTIFICATION_CLICKED
 };
 
-@interface MarketFox : NSObject
+@interface Marketfox : NSObject
 
 + (instancetype)instance;
 
@@ -25,7 +21,7 @@ typedef NS_ENUM(NSInteger,MFNotificationStatus){
 
 - (NSSet *)configureMarketFoxNotificationCategories;
 
-- (BOOL)isMarketFoxNotification:(NSDictionary *)userInfo;
+- (BOOL)isMarketfoxNotification:(NSDictionary *)userInfo;
 
 - (void)configureEmail:(NSString *)email;
 
